@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "wknd40/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

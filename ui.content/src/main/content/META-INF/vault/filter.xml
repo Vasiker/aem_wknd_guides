@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd40" mode="merge"/>
+    <filter root="/content/wknd40" mode="merge"/>
+    <filter root="/content/dam/wknd40" mode="merge">
+        <exclude pattern="/content/dam/wknd40(/.*)?"/>
+        <include pattern="/content/dam/wknd40/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/wknd40/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/wknd40" mode="merge"/>
+</workspaceFilter>
